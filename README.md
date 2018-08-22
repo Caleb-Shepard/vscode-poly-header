@@ -7,7 +7,7 @@
 This extension is a fork of kube's 42header and provides Poly header integration within VS Code.
 [kube's repository](https://github.com/kube-Shepard/vscode-poly-header/master)
 
-```bash
+```c
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                            |\              */
@@ -45,8 +45,8 @@ To override these values, specify these properties in *User Settings* :
 
 ```ts
 {
-  "42header.username": string,
-  "42header.email": string
+  "polyheader.username": string,
+  "polyheader.email": string
 }
 ```
 
