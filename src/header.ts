@@ -27,12 +27,12 @@ const genericTemplate = `
 ********************************************************************************
 *                                                                              *
 *                                                             |\\               *
-*    $FILENAME__________________________________        ------| \\----          *
+*    $FILENAME__________________________________________------| \\----          *
 *                                                       |    \\\`  \\  |  p       *
-*    By: $AUTHOR________________________________        |  \\\`-\\   \\ |  o       *
+*    By: $AUTHOR________________________________________|  \\\`-\\   \\ |  o       *
 *                                                       |---\\  \\   \`|  l       *
-*    Created: $CREATEDAT_________ by $CREATEDBY_        | \` .\\  \\   |  y       *
-*    Updated: $UPDATEDAT_________ by $UPDATEDBY_        -------------          *
+*    Created: $CREATEDAT_________ by $CREATEDBY_________| \` .\\  \\   |  y       *
+*    Updated: $UPDATEDAT_________ by $UPDATEDBY_________-------------          *
 *                                                                              *
 ********************************************************************************
 `.substring(1)
@@ -87,6 +87,9 @@ export const extractHeader = (text: string): string | null => {
 /**
  * Regex to match field in template
  * Returns [ global match, offset, field ]
+ * 
+ * To change regex and allow overwriting header with long names, 
+ * change ${name}_*)` from _ to something else
  */
 const fieldRegex = (name: string) =>
   new RegExp(`^((?:.*\\\n)*.*)(\\\$${name}_*)`, '')

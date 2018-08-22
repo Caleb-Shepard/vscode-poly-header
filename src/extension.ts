@@ -26,7 +26,7 @@ import {
  */
 const getCurrentUser = () =>
   vscode.workspace.getConfiguration()
-    .get('polyheader.username') || process.env['USER'] || 'marvin'
+    .get('polyheader.username') || process.env['USER'] || 'allstudents'
 
 /**
  * Return current user mail from config or default value

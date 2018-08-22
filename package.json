@@ -1,9 +1,9 @@
 {
-  "name": "poly-header",
+  "name": "polyheader",
   "displayName": "Poly Header",
   "description": "Poly header for VSCode",
   "version": "0.1.0",
-  "publisher": "Caleb-Shepard",
+  "publisher": "cshepard",
   "icon": "poly.png",
   "repository": {
     "type": "git",
