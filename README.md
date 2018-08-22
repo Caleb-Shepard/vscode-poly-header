@@ -1,11 +1,7 @@
-<img
-  src="https://raw.githubusercontent.com/Caleb-Shepard/vscode-poly-header/master/poly.png" 
-  width=128>
-
 # Poly Header for VSCode
 
 This extension is a fork of kube's 42header and provides Poly header integration within VS Code.
-[kube's repository](https://github.com/kube-Shepard/vscode-poly-header/master)
+[kube's repository](https://github.com/kube/vscode-42header)
 
 ```c
 /* ************************************************************************** */
