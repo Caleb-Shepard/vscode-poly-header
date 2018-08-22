@@ -33,7 +33,7 @@ const getCurrentUser = () =>
  */
 const getCurrentUserMail = () =>
   vscode.workspace.getConfiguration()
-    .get('polyheader.email') || `${getCurrentUser()}@student.42.fr`
+    .get('polyheader.email') || `${getCurrentUser()}@floridapoly.edu`
 
 /**
  * Update HeaderInfo with last update author and date, and update filename
