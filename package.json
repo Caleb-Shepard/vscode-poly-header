@@ -27,11 +27,11 @@
   "contributes": {
     "configuration": {
       "properties": {
-        "42header.username": {
+        "polyheader.username": {
           "type": "string",
           "description": "Username to use in Poly headers"
         },
-        "42header.email": {
+        "polyheader.email": {
           "type": "string",
           "description": "Email address to use in Poly headers"
         }
